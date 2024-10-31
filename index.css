@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    /* empty-state */
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.home{
+    /* board-title-home */
+    
+        position: relative;
+        max-width: 149px;
+        max-height: 36px;
+        left: 85px;
+        top: 68px;
+    
+        font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 36px;
+        /* identical to box height, or 90% */
+        text-align: center;
+    
+        color: #EEEEEE;
+}
+.guest{
+    /* board-title-home */
+    
+        position: relative;
+        max-width: 149px;
+        max-height: 36px;
+        left: 340px;
+        top: 68px;
+    
+        font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 36px;
+        /* identical to box height, or 90% */
+        text-align: center;
+    
+        color: #EEEEEE;
+}
+.its1{
+    /* home-points-text */
+        display: inline;
+        position: relative;
+        padding-top: 10px;
+        padding-left: 45px;
+        padding-right: 40px;
+        max-width: 149px;
+        max-height: 36px;
+        left: 84px;
+        top: 68px;
+        font-family: 'Cursed Timer ULiL';
+        font-weight: 400;
+        font-style: normal;
+        font-size: 90px;
+        line-height: 127px;
+        /* or 141% */
+        text-align: center;
+        background-color: black;
+        color: #F94F6D;
+        
+}
+.its2{
+    /* home-points-text */
+        display: inline;
+        padding-left: 45px;
+        padding-right: 40px;
+        padding-top: 10px;
+        position: relative;
+        max-width: 149px;
+        max-height: 36px;
+        left: 340px;
+        top: 68px;
+        font-family: 'Cursed Timer ULiL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 90px;
+        line-height: 127px;
+        /* or 141% */
+        text-align: center;
+        background-color: black;
+        color: #F94F6D;
+        overflow: hidden;
+}
+/* background */
+/* background */
+/* home-score */
+/* plus-one-point */
+.butt1{
+    /* Rectangle 4 */
+    
+        box-sizing: border-box;
+    
+        position: absolute;
+        width: 45px;
+        height: 45px;
+        left: 228px;
+        top: 308px;
+    background-color: 1b244a;
+        border: 2px solid #9AABD8;
+        border-radius: 5px;
+}
+.butt2{
+    /* Rectangle 5 */
+    
+        box-sizing: border-box;
+    
+        position: absolute;
+        width: 45px;
+        height: 45px;
+        left: 279px;
+        top: 308px;
+    background-color: 1b244a;
+        border: 2px solid #9AABD8;
+        border-radius: 5px;
+}
+.butt3{
+    /* Rectangle 6 */
+    
+        box-sizing: border-box;
+    
+        position: absolute;
+        width: 45px;
+        height: 45px;
+        left: 330px;
+        top: 308px;
+    background-color: 1b244a;
+        border: 2px solid #9AABD8;
+        border-radius: 5px;
+}
+.butt4{
+    /* Rectangle 4 */
+    
+        box-sizing: border-box;
+    
+        position: absolute;
+        width: 45px;
+        height: 45px;
+        left: 620px;
+        top: 308px;
+    background-color: 1b244a;
+        border: 2px solid #9AABD8;
+        border-radius: 5px;
+}
+.butt5{
+    /* Rectangle 5 */
+    
+        box-sizing: border-box;
+    
+        position: absolute;
+        width: 45px;
+        height: 45px;
+        left: 670px;
+        top: 308px;
+    background-color: 1b244a;
+        border: 2px solid #9AABD8;
+        border-radius: 5px;
+}
+.butt6{
+    /* Rectangle 6 */
+    
+        box-sizing: border-box;
+    
+        position: absolute;
+        width: 45px;
+        height: 45px;
+        left: 720px;
+        top: 308px;
+    
+        border: 2px solid #9AABD8;
+        border-radius: 5px;
+        background-color: 1b244a;
+}
+/* add-points-btns-home */
+.butt1:hover,.butt2:hover,.butt3:hover,.butt4:hover,.butt5:hover,.butt6:hover{
+    background-color: bisque;
+}
